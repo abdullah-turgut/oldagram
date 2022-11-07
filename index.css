@@ -86,6 +86,11 @@ header {
 
 .fa-regular {
   font-size: 24px;
+  cursor: pointer;
+}
+
+.fa-solid {
+  color: #fb3958;
 }
 
 .post-likes {
