@@ -1,9 +1,55 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/a0ca501cc8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/logo.png" id="logo" />
+        <img
+          src="images/user-avatar.png"
+          alt="user small avatar photo"
+          class="avatar"
+        />
+      </header>
+      <main>
+        <section class="post-content" id="post-0">
+          <div class="user-info">
+            <img src="images/avatar-vangogh.jpg" alt="" class="user-image" />
+            <div class="user-alt-info">
+              <div class="user-name">Vincent Van Gogh</div>
+              <div class="user-location">Zudert, Netherlands</div>
+            </div>
+          </div>
+          <img src="images/post-vangogh.jpg" alt="" class="post-image" />
+          <div class="post-body">
+            <div class="post-icons">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+            <p class="post-likes">12142 likes</p>
+            <p class="caption">
+              <span class="commentor">vicey</span> Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
